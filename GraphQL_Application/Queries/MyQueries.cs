@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace GraphQL_Application.Queries
 {
-    [ExtendObjectType("Query")]
+    //[ExtendObjectType("Query")]
     public class MyQueries
     {
         public MyModel GetMyModel() { return new MyModel(); }
